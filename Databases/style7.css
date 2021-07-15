@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #ccc ;
+	font-family: Arial;
+	box-sizing: border-box;
+}
+
+.navbar ul{
+    list-style: none;
+    background: #663366;
+    padding: 0;
+    margin: 0; 
+    text-align: center;  
+}
+
+.navbar li{
+    display: inline-block;   
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    width: 150px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    background: lightblue;
+}
+
+.event-container {
+  font-family: "Roboto", sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  justify-content: start;
+}
+
+.event-container .event {
+    box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+    background: #bd87c1;
+    display: flex;
+    border-radius: 8px;
+    margin: 32px 0;
+}
+
+.event .date {
+    background: #47005e;
+    min-width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+    padding: 8px 48px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px 0 0 8px;
+    font-size: 35px;
+  }
+
+.event .event-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 24px;
+    font-size: 24px;
+    margin: 24px 0 10px 0;
+    color:  #eee;
+    text-transform: uppercase;
+}
+
+.event .event-description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 24px;
+  font-size: 15px;
+  margin: 15px 0 10px 0;
+  color:  #eee;
+  font-style: italic;
+}
+
+.event .event-time{
+  display: flex;
+  color:  #eee;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 24px;
+  background: #c5767d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  padding: 8px;
+  border-radius: 16px;
+    margin: 24px 0;
+    margin-right: 2%;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .event .event-repeat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 24px;
+    background: #a85f82;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    padding: 8px;
+    border-radius: 16px;
+    margin: 24px 0;
+    margin-right: 2%;
+    font-size: 14px;
+    color:  #eee;
+    font-weight: bold;
+  }
+.delete-button {
+    width:35%;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+    color:#eee;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #4f162a;
+  }
+  
+.delete-button:hover{
+    opacity: .7;
+  }

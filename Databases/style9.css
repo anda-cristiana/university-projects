@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #ccc ;
+    font-family: Arial;
+}
+
+.navbar ul{
+    list-style: none;
+    background: #663366;
+    padding: 0;
+    margin: 0; 
+    text-align: center;  
+}
+
+.navbar li{
+    display: inline-block;   
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    width: 150px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    background: lightblue;
+}
+
+.text{
+    text-align: center;
+    color: #a51156;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    text-shadow: 0 1px 1px #fff;
+    padding-top:20px;
+}
+
+.text1{
+    text-align: center;
+    color: #d65d16;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    text-shadow: 0 1px 1px #fff;
+    padding-top:40px;
+}
+
+.text2{
+    text-align: center;
+    color: hsl(2, 81%, 36%);
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    text-shadow: 0 1px 1px #fff;
+    padding-top:40px;
+}
+
+.text3{
+    text-align: center;
+    color: #f83691;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    text-shadow: 0 1px 1px #fff;
+    padding-top:40px;
+}
+
+.text4{
+    text-align: center;
+    color: #cd31d3;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    text-shadow: 0 1px 1px #fff;
+    padding-top:40px;
+}
