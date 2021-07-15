@@ -39,38 +39,38 @@ In cele din urma, am realizat iterfata grafica prin intermediul elementelor puse
 <p>
 Scurta vizualizare a proiectului:
 </p>
-<img src="images/1.jpg"/ width = "450" height = "400"> 
-<img src="images/2.jpg"/ width = "450" height = "400">
+<img src="Images/1.jpg"/ width = "450" height = "400"> 
+<img src="Images/2.jpg"/ width = "450" height = "400">
 <p> 
 In figura din dreapta s-a introdus de la tastatura instructiunea MOV AX, 4. Pentru a o incarca in coada de executie, vom apasa butonul Add Instruction, care va trimite instructiunea in panoul din stanga. Dupa aceasta, se vor apasa pe rand, butonul Load Data care va scrie instructiunea in fisierul pe care il prelucreaza programul si Emulate pentru a realiza instructiunea scrisa.
 </p>
-<img src="images/3.jpg"/ width = "450" height = "400">
-<img src="images/4.jpg"/ width = "450" height = "400">
+<img src="Images/3.jpg"/ width = "450" height = "400">
+<img src="Images/4.jpg"/ width = "450" height = "400">
 <p>
 Rezultatul emularii este vizibil in poza din dreapta, unde observam ca in partea low a registrului AX s-a adaugat valoarea 4. Butonul Open File ne permite permanent sa vizualizam ce instructiuni am introdus.
 </p>
-<img src="images/5.jpg"/ width = "450" height = "400">
-<img src="images/6.jpg"/ width = "450" height = "400">
+<img src="Images/5.jpg"/ width = "450" height = "400">
+<img src="Images/6.jpg"/ width = "450" height = "400">
 <p>
 Rezultatele emularii instructiunilor ADC si ADD sub forma unor instructiuni care au ca operanzi registrii generali.
 </p>
-<img src="images/7.jpg"/ width = "450" height = "400">
-<img src="images/8.jpg"/ width = "450" height = "400">
+<img src="Images/7.jpg"/ width = "450" height = "400">
+<img src="Images/8.jpg"/ width = "450" height = "400">
 <p>
 Rezultatele emularii instructiunilor INC si DEC, instructiuni cu un operand.
 </p>
-<img src="images/9.jpg"/ width = "450" height = "400">
-<img src="images/10.jpg"/ width = "450" height = "400">
+<img src="Images/9.jpg"/ width = "450" height = "400">
+<img src="Images/10.jpg"/ width = "450" height = "400">
 <p>
 Rezultatele emularii instructiunilor NEG si NOT, instructiuni cu un operand.
 </p>
-<img src="images/11.jpg"/ width = "450" height = "400">
-<img src="images/12.jpg"/ width = "450" height = "400">
+<img src="Images/11.jpg"/ width = "450" height = "400">
+<img src="Images/12.jpg"/ width = "450" height = "400">
 <p>
 Rezultatele emularii instructiunilor SHL si SHR, instructiuni cu un operand imediat.
 </p>
-<img src="images/13.jpg"/ width = "450" height = "400">
-<img src="images/MEM_1.jpg"/ width = "450" height = "400">
+<img src="Images/13.jpg"/ width = "450" height = "400">
+<img src="Images/MEM_1.jpg"/ width = "450" height = "400">
 <p>
 Rezultatele emularii instructiunilor PUSH, POP si al instructiunilor care acceseaza memoria.
 </p>
